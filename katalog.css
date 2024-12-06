@@ -1,0 +1,140 @@
+
+
+.katalogSection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    justify-content: center;
+    align-items: center;
+        
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wraper{
+        
+        margin-top: 30px;
+        
+        
+    }
+    #Kafijas_automāti{
+        text-align: center;
+    }
+    .bodykatalogs {
+        background-image: url(images/bodyimgcoffee.jpeg);
+        background-size: 100%;
+        
+    }
+    
+    .katalogs_wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 1400px;
+    }
+    .machin_block_wraper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        width: 1000px;
+    }
+    
+    
+    
+    .machine_block{
+        background-color: aliceblue;
+    }
+    
+    .katalogs_h1 {
+        margin: 30px;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        width: 200px;
+        height: 200px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    
+
+    @media (min-width:501px){
+        .machine_block:hover {
+            
+        transform: scale(1.2);
+        margin: 30px;
+        }
+            
+    }
+    
+    .machine_block {
+        box-shadow: 2px 2px 5px #000;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-between;
+        gap: 10px;
+        width: 300px;
+        overflow-wrap: break-word;
+        transition: all .2s ease-in-out;
+        margin-top: 20px;
+    }
+    .aparati_image {
+        box-shadow: 1px 1px 5px #000;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .h3katalogs {
+        margin-bottom: 10px;
+    }
+    
+    .katalogs_wrap>.machine_block>h4 {
+        font-size: 25px;
+    }
+    #buttonSage{
+        background-image: url(logos/Sage-Logo.svg);
+        
+    }
+    #buttonMelitta{
+        background-image: url(logos/melitta-cafe.svg);
+        
+    }
+    #buttonPhilips{
+        background-image: url(logos/philips.svg);
+       
+    }
+    #buttonJura{
+        background-image: url(logos/jura-1.svg);
+       
+    }
+    #buttonMiele{
+        background-image: url(logos/miele.svg);
+       
+    }
+    #buttonDeLonghi{
+        background-image: url(logos/delonghi.svg);
+       
+    }
+    #buttonSaeco{
+        background-image: url(logos/saeco.svg);
+       
+    }
+    #buttonTchibo{
+        background-image: url(logos/tchibo-seeklogo-4.svg);
+    
+    }
+    #buttonNivona{
+        background-image: url(logos/nivona-seeklogo.svg);
+    
+    }
+    #buttonKrups{
+        background-image: url(logos/krups.jpeg);
+      
+    }
